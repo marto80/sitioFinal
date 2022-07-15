@@ -1,0 +1,37 @@
+.bot__1{
+    background-color: $grey;
+    padding: 2%;
+    border: none;
+    border-radius: 5%;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 3%;
+    &:hover{
+        background-color: $beidgeClaro;
+        cursor: pointer;
+    }
+    }
+    
+    .bot__2{
+    @extend .bot__1;
+    margin-left: 0%;
+    background-color: $lilaLight;
+    &:hover{
+        background-color: $beidgeOscuro;
+        cursor: pointer;
+    }
+    }
+
+
+    .bot__3{
+        @extend .bot__1;
+        margin-left: 0%;
+        background-color: $lilaLight;
+        color: $white;
+        text-decoration: none;
+        &:hover{
+            background-color: $beidgeOscuro;
+            cursor: pointer;
+            color:$white;
+        }
+        }
