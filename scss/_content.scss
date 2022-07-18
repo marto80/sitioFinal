@@ -235,6 +235,51 @@ margin-bottom: 3%;
 	margin-top:16px;
 }
 
+.tit__exito{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: $textXl;
+    background-color: $beidgeOscuro;
+}
+.bg__exito{
+    background-color: $beidgeOscuro;
+}
+
+.paginacion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    a{
+        text-decoration: none;
+        background-color: $grey;
+        margin-left: 1%;
+        width: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        color: $black;
+        &:hover{
+            background-color: $beidgeClaro;
+            color: $black;
+            cursor: pointer;
+        }
+
+    }
+.year{
+        font-style: bolder;
+        font-size: $textSm;
+        background-color: $grey;
+    }
+.seleccionado{
+    background-color: $lilaLight;
+}
+}
+
+
 // registro
 
 #form_content_container{

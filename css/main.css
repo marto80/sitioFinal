@@ -271,6 +271,43 @@ nav {
 .my-float {
   margin-top: 16px; }
 
+.tit__exito {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2em;
+  background-color: #ffcc8f; }
+
+.bg__exito {
+  background-color: #ffcc8f; }
+
+.paginacion {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%; }
+  .paginacion a {
+    text-decoration: none;
+    background-color: #d7d7d7;
+    margin-left: 1%;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    color: #131313; }
+    .paginacion a:hover {
+      background-color: #ffdaaf;
+      color: #131313;
+      cursor: pointer; }
+  .paginacion .year {
+    font-style: bolder;
+    font-size: 0.8em;
+    background-color: #d7d7d7; }
+  .paginacion .seleccionado {
+    background-color: #c393ff; }
+
 #form_content_container {
   background-color: #ffdaaf;
   padding: 5%;

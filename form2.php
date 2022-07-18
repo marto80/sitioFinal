@@ -9,7 +9,7 @@ $horario = $_POST['horario'];
 $llamarpor = $_POST['llamarpor'];
 $message = $_POST['message'];
 
-$header = 'Datos del interesado - index';
+$header = 'Datos del interesado - contacto';
 $asunto = 'Futuro alumno DeROSE Palermo';
 
 $mensaje = "Nombre: " . $nombre . "\r\n";
