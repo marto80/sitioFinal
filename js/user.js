@@ -48,14 +48,14 @@ function validateUser () {
           inputPracticaCompleta.setAttribute("style","margin-top:10px;")
           inputPracticaCompleta.textContent = "*Contenido habilitado sólo para estudiantes avanzados"
 
-          imagePracticaCompleta.parentNode.insertBefore(inputPracticaCompletan, imagePracticaCompleta.nextSibling);
+          imagePracticaCompleta.parentNode.insertBefore(inputPracticaCompleta, imagePracticaCompleta.nextSibling);
 
 
           //borra el link de acceso a la clase grabada "entrenamiento" y agrega un texto que dice que no tiene acceso. (todo manipulando el html)
-          var elementeEntrenamiento = document.getElementById('idEntrenamiento');
+          var elementeEntrenamiento = document.getElementById('idEntrenamientos');
           elementeEntrenamiento.remove();
 
-          var imageEntrenamiento = document.getElementById('idImageEntrenamiento');
+          var imageEntrenamiento = document.getElementById('idImageEntrenamientos');
           
           var inputEntrenamiento = document.createElement("h6");
           inputEntrenamiento.setAttribute("style","margin-top:10px;")
@@ -130,7 +130,7 @@ function validateUser () {
 
 
           //borra el link de acceso a la clase grabada "respiración" y agrega un texto que dice que no tiene acceso. (todo manipulando el html) PASAJE DE GRADO
-          var elementeCursoBasico= document.getElementById('idPasajeDeGrado');
+          var elementePasajeDeGrado= document.getElementById('idPasajeDeGrado');
           elementePasajeDeGrado.remove();
 
           var imagePasajeDeGrado = document.getElementById('idImagePasajeDeGrado');
