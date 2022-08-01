@@ -8,15 +8,14 @@
     <link rel="shortcut icon" href="../img/faviconderose.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../../../css/main.css">
-    <link rel="stylesheet" href="../../../css/animate.css">
-    <meta name="description" content="Prácticas de meditación grabadas para aumentar el foco y la concentración>
+    <meta name="description" content="Prácticas de meditación grabadas para aumentar el foco y la concentración">
     <meta name= "keywords" content="Meditación Mindfulness, Foco, Online, clases grabadas">
 
   </head>
 <body>
   <nav class="navbar navbar-expand-sm bgNav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../../../index.html"><img src="../../../img/logo.svg" alt="logo"></a>
+          <a class="navbar-brand logo__peque" href="../../../index.html"><img src="../../../img/logo.svg" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,7 +44,8 @@
     <main>
         <h1 class="h2__pages  ">Pasaje de grado</h1>
 
-        <div>
+        <div id="idImageIniciantes"></div>
+        <div  id="idIniciantes">  
           <section class="container-fluid">
               <div class="row">   
 
@@ -63,10 +63,10 @@
                     </article>   
 
                     
-                    <div class="col-sm-12 col-md-4 col-xl-4">
-                        <button class="bot__2 ">Libro "Cuando es preciso ser fuerte" en PDF</button>
-                        <button class="bot__2 ">Cuestionario</button>
-                        <button class="bot__2 ">Libro "Yôga Avanzado" en PDF</button>
+                    <div class="col-sm-12 col-md-6 col-xl-6">
+                      <a href="https://docs.google.com/document/d/10jgbRppyCQ8gBmPg3n-hjw-4wzb_JZQ2j0Fb1myyufc/edit"> <button class="bot__2 ">Cuestionario</button></a> <br>
+                      <a href="../../../files/yoga_avanzado_derose.pdf"> <button class="bot__2 ">Libro "Yôga Avanzado" en PDF</button></a><br>
+                      <a href="../../../files/ser_fuerte_en_espanol.pdf"> <button class="bot__2 ">Libro "Cuando es preciso ser fuerte" en PDF</button></a> <br> <br>
                     </div>
 
 
@@ -92,12 +92,16 @@
       </div>
     </footer>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=541161279903&text=Hola,%20quer%C3%ADa%20informaci%C3%B3n%20sobre%20la%20propuesta" class="float" target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
-</a>
-  
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+ 
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+     
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+           https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+     
+      <!-- Our script must be loaded after firebase references -->
+      <script src="../../../js/userSection2.js"></script> 
 </body>
 </html>

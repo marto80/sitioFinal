@@ -29,7 +29,7 @@ function validateUser () {
             
             var inputPracticaCompleta = document.createElement("h6");
             inputPracticaCompleta.setAttribute("style","margin-top:10px;")
-            inputPracticaCompleta.textContent = "*Contenido habilitado sólo para estudiantes avanzados"
+            inputPracticaCompleta.textContent = "*Contenido habilitado sólo para alumnos avanzados"
 
             imagePracticaCompleta.parentNode.insertBefore(inputPracticaCompleta, imagePracticaCompleta.nextSibling);
 
@@ -46,7 +46,7 @@ function validateUser () {
           
           var inputPracticaCompleta = document.createElement("h6");
           inputPracticaCompleta.setAttribute("style","margin-top:10px;")
-          inputPracticaCompleta.textContent = "*Contenido habilitado sólo para estudiantes avanzados"
+          inputPracticaCompleta.textContent = "*Contenido habilitado sólo para alumnos avanzados"
 
           imagePracticaCompleta.parentNode.insertBefore(inputPracticaCompleta, imagePracticaCompleta.nextSibling);
 
@@ -59,7 +59,7 @@ function validateUser () {
           
           var inputEntrenamiento = document.createElement("h6");
           inputEntrenamiento.setAttribute("style","margin-top:10px;")
-          inputEntrenamiento.textContent = "*Contenido habilitado sólo para estudiantes avanzados/iniciantes"
+          inputEntrenamiento.textContent = "*Contenido habilitado sólo para alumnos avanzados/iniciantes"
 
           imageEntrenamiento.parentNode.insertBefore(inputEntrenamiento, imageEntrenamiento.nextSibling);
 
@@ -72,7 +72,7 @@ function validateUser () {
           
           var inputMeditacion = document.createElement("h6");
           inputMeditacion.setAttribute("style","margin-top:10px;")
-          inputMeditacion.textContent = "*Contenido habilitado sólo para estudiantes avanzados/iniciantes"
+          inputMeditacion.textContent = "*Contenido habilitado sólo para alumnos avanzados/iniciantes"
 
           imageMeditacion.parentNode.insertBefore(inputMeditacion, imageMeditacion.nextSibling);
 
@@ -85,7 +85,7 @@ function validateUser () {
           
           var inputFlexibilidad = document.createElement("h6");
           inputFlexibilidad.setAttribute("style","margin-top:10px;")
-          inputFlexibilidad.textContent = "*Contenido habilitado sólo para estudiantes avanzados/iniciantes"
+          inputFlexibilidad.textContent = "*Contenido habilitado sólo para alumnos avanzados/iniciantes"
 
           imageFlexibilidad.parentNode.insertBefore(inputFlexibilidad, imageFlexibilidad.nextSibling);
 
@@ -98,7 +98,7 @@ function validateUser () {
           
           var inputRespiracion = document.createElement("h6");
           inputRespiracion.setAttribute("style","margin-top:10px;")
-          inputRespiracion.textContent = "*Contenido habilitado sólo para estudiantes avanzados/iniciantes"
+          inputRespiracion.textContent = "*Contenido habilitado sólo para alumnos avanzados/iniciantes"
 
           imageRespiracion.parentNode.insertBefore(inputRespiracion, imageRespiracion.nextSibling);
 
@@ -111,7 +111,7 @@ function validateUser () {
           
           var inputPracticasEspeciales = document.createElement("h6");
           inputPracticasEspeciales.setAttribute("style","margin-top:10px;")
-          inputPracticasEspeciales.textContent = "*Contenido habilitado sólo para estudiantes avanzados/iniciantes"
+          inputPracticasEspeciales.textContent = "*Contenido habilitado sólo para alumnos avanzados/iniciantes"
 
           imagePracticasEspeciales.parentNode.insertBefore(inputPracticasEspeciales, imagePracticasEspeciales.nextSibling);
 
@@ -124,7 +124,7 @@ function validateUser () {
           
           var inputCursoBasico = document.createElement("h6");
           inputCursoBasico.setAttribute("style","margin-top:10px;")
-          inputCursoBasico.textContent = "*Contenido habilitado sólo para estudiantes avanzados/iniciantes"
+          inputCursoBasico.textContent = "*Contenido habilitado sólo para alumnos avanzados/iniciantes"
 
           imageCursoBasico.parentNode.insertBefore(inputCursoBasico, imageCursoBasico.nextSibling);
 
@@ -137,7 +137,7 @@ function validateUser () {
           
           var inputPasajeDeGrado = document.createElement("h6");
           inputPasajeDeGrado.setAttribute("style","margin-top:10px;")
-          inputPasajeDeGrado.textContent = "*Contenido habilitado sólo para estudiantes avanzados/iniciantes"
+          inputPasajeDeGrado.textContent = "*Contenido habilitado sólo para alumnos avanzados/iniciantes"
 
           imagePasajeDeGrado.parentNode.insertBefore(inputPasajeDeGrado, imagePasajeDeGrado.nextSibling);
 
@@ -150,9 +150,22 @@ function validateUser () {
           
           var inputEntrenamiento30 = document.createElement("h6");
           inputEntrenamiento30.setAttribute("style","margin-top:10px;")
-          inputEntrenamiento30.textContent = "*Contenido habilitado sólo para estudiantes avanzados/iniciantes"
+          inputEntrenamiento30.textContent = "*Contenido habilitado sólo para alumnos avanzados/iniciantes"
 
           imageEntrenamiento30.parentNode.insertBefore(inputEntrenamiento30, imageEntrenamiento30.nextSibling);
+
+
+          //borra el link de acceso a la clase grabada "respiración" y agrega un texto que dice que no tiene acceso. (todo manipulando el html) ENTRENAMIENTOS DE 30
+          var elemente15= document.getElementById('id15');
+          elemente15.remove();
+
+          var image15 = document.getElementById('idImage15');
+          
+          var input15 = document.createElement("h6");
+          input15.setAttribute("style","margin-top:10px;")
+          input15.textContent = "*Contenido habilitado sólo para alumnos avanzados/iniciantes"
+
+          image15.parentNode.insertBefore(input15, image15.nextSibling);
 
     }
   });

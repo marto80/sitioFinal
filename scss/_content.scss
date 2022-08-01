@@ -1,26 +1,4 @@
-.destacados{
-    
-    padding-top: 2%;
-    padding-left: 2%;
-article{
-    padding: 1%;
-    background-color: $lilaClaro;
-    padding-top: 5%;
-    padding-bottom: 3%;
-    margin-bottom: 5%;
-    h2{
-        font-size: $textXl;
-        padding-left: 3%;
-        padding-top: 3%;    
-    }
-    img{
-        padding-left: 5%;
-        max-width: 95%;
-        min-width: 95%; 
-    }
-}
-   
-}
+
 
 .txt__destacados{
 font-size: $textMd;
@@ -30,8 +8,38 @@ text-align: justify;
 } 
 
 .linear__gradient{
-background: linear-gradient(to top, $lilaClaro, $beidgeClaro);
+background: linear-gradient(to top, $lilaClaro, rgb(245, 240, 187));
 border: solid 10px white;
+}
+
+.linear__gradient3{
+    background: linear-gradient(to top, $lilaClaro, #EBF4F5);
+    border: solid 10px white;
+    }
+
+.linear__gradient4{
+        background: linear-gradient(to top, $lilaClaro, #ebf4f5);
+        border: solid 10px white;
+    }
+
+.linear__gradient5{
+        background: linear-gradient(to top, $grey, $white);
+        border: solid 10px white;
+    }
+
+.linear__gradient6{
+        background: linear-gradient(to top, $lilaClaro, #ebf4f5);
+        border: solid 10px white;
+    }
+
+    .linear__gradient7{
+        background: linear-gradient(to top, $beidgeClaro, $beidgeOscuro);
+        border: solid 10px white;
+    }
+
+.dropdown__nav{
+    background-color: $beidgeClaro;
+    border-radius: 0px;
 }
 
 .contacto {
@@ -156,6 +164,10 @@ margin-bottom: 3%;
 	padding-top: 1%;
 	font-size: $textMd;
 	text-align: justify;
+    li{
+        margin-left: 10%;
+        text-align: justify;
+    }
 }
 
 .h3__pages{
@@ -209,6 +221,10 @@ margin-bottom: 3%;
 
 .box__horarios__big{
     padding: 5%;
+}
+
+.box__horarios__big__vivo{
+    padding-left: 5%;
 }
 
 .float{
@@ -277,6 +293,67 @@ margin-bottom: 3%;
 .seleccionado{
     background-color: $lilaLight;
 }
+}
+
+.icon__home{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.icon_index{
+    padding-left: 5%;
+}
+
+.icon__grabadas{
+    color: $black;
+    padding-left: 3%;
+    font-size: $textLg
+}
+
+.icon__live{
+    padding-left: 2%;
+    color: $grey;
+    font-size: $textLg;
+    animation-name: live;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes live {
+    0%{color: $grey}
+    50%{color: red}
+    100%{color: $grey}
+}
+
+.campus__live{
+    padding-left: 2%;
+    
+    animation-name: campuslive;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes campuslive {
+    0%{background-color: red}
+    50%{background-color: $white}
+    100%{background-color: red}
+}
+
+.texto__descuento{
+    height: 50px;
+    border-radius: 0;
+    h2{
+        font-size: $textSm;
+
+    }
+}
+
+.receta{
+    padding-bottom: 5%;
+    li{
+        padding-left: 5%;
+    }
 }
 
 

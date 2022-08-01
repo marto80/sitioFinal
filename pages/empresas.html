@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeROSE Method - mindfulness y meditación</title>
     <link rel="shortcut icon" href="../img/faviconderose.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta name="description" content="Programa de calidad de vida en empresas. Meditación y respiración.">
     <meta name="keywords"  content="Meditación, Mindfulness, Foco, Online, clases grabadas, clases en empresas">
 
@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-sm bgNav"> 
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img src="../img/logo.svg" alt="logo"></a>
+          <a class="navbar-brand logo__peque" href="../index.html"><img src="../img/logo.svg" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -220,13 +220,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="section-title">
-                     
+                     Dejanos tus datos de
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <form action="/" class="mb-4 mb-lg-0">
+                    <form action="../form_empresas.php" method="POST" class="mb-4 mb-lg-0">
                         <div class="form-row">
                           <h2>Contacto</h2>
                             <div class="col-md-6 form-group">
@@ -237,20 +237,16 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="number" class="form-control" name="nombre" id="subject" placeholder="Whatsapp +54911 33597205" />
+                            <input type="number" class="form-control" name="telefono" id="telefono" placeholder="Teléfono" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="empresa" id="empresa" placeholder="Empresa" />
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" name="message" placeholder="Escribinos un mensaje"></textarea>
                         </div>
                         <button type="submit" class="bot__2">ENVIAR</button>
                     </form>
-                </div>
-                
-                <div class="col-md-6">
-                  <h2>¿Cómo llegar?</h2>
-                  <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6954076699058!2d-58.43560317289878!3d-34.586572917977655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58f2d273c33%3A0xa088f4b3a71e91d2!2sM%C3%A9todo%20DeRose%20Palermo!5e0!3m2!1ses!2sar!4v1655479971604!5m2!1ses!2sar" width="100%" height="350" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
                 </div>
             </div>
         </div>

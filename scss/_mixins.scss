@@ -23,3 +23,22 @@
 .entrenamiento__destacado{
     @include horarios($lilaLight, 40px, normal, 3%)
 }
+
+.meditacion__destacado2{
+    @include horarios($beidgeClaro, 40px, bold, 3%);
+    color: $black2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    p{
+        text-decoration: none;
+    }
+}
+
+.entrenamiento__destacado2{
+    @include horarios($lilaLight, 40px, normal, 3%);
+    color: $black2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
